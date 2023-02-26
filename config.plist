@@ -54,6 +54,22 @@
 				<key>Path</key>
 				<string>SSDT-dGPU-OFF.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-ATKD.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-ATKD.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-KBLC.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-KBLC.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -72,6 +88,34 @@
 				<data>X09TSQ==</data>
 				<key>Replace</key>
 				<data>WE9TSQ==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>[ATKD] FN+F7 - Rename _Q0D to XQ0D</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Find</key>
+				<data>X1EwRA==</data>
+				<key>Replace</key>
+				<data>WFEwRA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>[ATKD] FN Lock - Rename _QD5 to XQD5</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Find</key>
+				<data>X1FENQ==</data>
+				<key>Replace</key>
+				<data>WFFENQ==</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
